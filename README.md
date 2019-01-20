@@ -22,7 +22,7 @@ In this repo I use the pre-trained model with resolution = 224 and width Multipl
    
    ```python get_tensor_from_checkpoint.py -c "your checkpoint file path"```
 
-3. Prepare your train/test dataset,and re-organize the directory as followa:
+3. Prepare your train/test dataset,and re-organize the directory as follows:
    
    **Because the resolusion of the model is 224, so you should resize your train/test images to 224 before you use them**. 
 ``` 
@@ -58,4 +58,4 @@ In this repo I use the pre-trained model with resolution = 224 and width Multipl
 + add a ```predict.py``` script
 + replace the dataset preparation module using ```tf.data``` API. 
   As for why I don't replace it now, I still can't figure out one thing when I parse a tfrecord file.
-  But I thing it won't be long, I will update soon.
+  But I think it won't be long, I will update soon.
